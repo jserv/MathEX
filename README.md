@@ -1,6 +1,6 @@
-# expr
+# Introduction
 
-Expr is a mathematical expression evaluator written in C. It takes string as
+MathEX is a mathematical expression evaluator written in C. It takes string as
 input and returns floating-point number as a result.
 
 ## Features
