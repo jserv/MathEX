@@ -31,7 +31,7 @@ static struct expr_func user_funcs[] = {
 };
 
 int main() {
-    const char *s = "x = 5, add(2, x)";
+    const char *s = "x = 40, add(2, x)";
     struct expr_var_list vars = {0};
     struct expr *e = expr_create(s, strlen(s), &vars, user_funcs);
     if (!e) { printf("Syntax error"); return 1; }
@@ -43,7 +43,7 @@ int main() {
 }
 ```
 
-Output: `result: 7.000000`
+Output: `result: 42.000000`
 
 ## API
 
